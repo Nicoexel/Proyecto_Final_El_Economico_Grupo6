@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".CategoriActivity">
+
+    <Button
+        android:id="@+id/btnregresar"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_weight="1"
+        android:backgroundTint="#3C6A3D"
+        android:text="Regresar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#F8F5F5"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnactualizar" />
+
+    <Button
+        android:id="@+id/btnLimpiarCate"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:backgroundTint="#3C6A3D"
+        android:text="Limpiar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#F8F5F5"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listcategorias" />
+
+    <Button
+        android:id="@+id/btnactualizar"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_weight="1"
+        android:backgroundTint="#3C6A3D"
+        android:text="Actualizar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#F8F5F5"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtdescripcion" />
+
+    <EditText
+        android:id="@+id/txtdescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_weight="10"
+        android:ems="10"
+        android:hint="Descripcion"
+        android:minHeight="48dp"
+        android:paddingTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtcategoria" />
+
+    <EditText
+        android:id="@+id/txtcategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="10"
+        android:ems="10"
+        android:hint="Categoria"
+        android:minHeight="48dp"
+        android:paddingTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblInicio" />
+
+    <TextView
+        android:id="@+id/lblInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="25dp"
+        android:layout_weight="1"
+        android:text="Gestion de Categorias"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btncrear"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:backgroundTint="#3C6A3D"
+        android:text="Crear"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#F8F5F5"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtdescripcion" />
+
+    <Button
+        android:id="@+id/btneliminar"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:backgroundTint="#3C6A3D"
+        android:text="Eliminar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#F8F5F5"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btncrear" />
+
+    <ListView
+        android:id="@+id/listcategorias"
+        android:layout_width="374dp"
+        android:layout_height="193dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Categorias Existentes"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btneliminar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

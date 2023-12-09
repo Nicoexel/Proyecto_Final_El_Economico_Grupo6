@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Proyecto_El_Economico_G6</string>
+    v
+    <string name="contactos_nelige_una_opcion">Editar Perfil</string>
+    <string name="contactos_agregar_contacto" />
+    <string name="agregar_foto">Agregar foto</string>
+    <string name="ver_listado">Ver listado</string>
+    <string name="agrega_tu_mejor_nfoto_de_perfil">Agrega tu mejor\nfoto de perfil</string>
+    <string name="ingresa_tu_nombre" />
+    <string name="viewnombre">Nombre</string>
+    <string name="viewtelefono">Telefono</string>
+    <string name="viewlatitud">Latitud</string>
+    <string name="viewlongitud">Longitud</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="lista_contacto">Lista Contactos</string>
+    <string name="volver">Volver</string>
+    <string name="eliminar">Eliminar</string>
+</resources>

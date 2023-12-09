@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "201949168255",
+    "firebase_url": "https://economico-g6-default-rtdb.firebaseio.com",
+    "project_id": "economico-g6",
+    "storage_bucket": "economico-g6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201949168255:android:bca1520877f3995a15b54a",
+        "android_client_info": {
+          "package_name": "com.example.proyecto_el_economico_g6"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQvXTxUR7fY3v1pjePpuDzSywlPS4lKIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
