@@ -132,6 +132,7 @@ public class RegisterActivity extends AppCompatActivity {
                             p.setLatitud(latitud);
                             p.setLongitud(longitud);
                             p.setRol_usuario(rol);
+                            p.setTelefono(telefono);
                             p.setFoto(foto);
 
                             databaseReference.child("Persona").child(p.getId()).setValue(p);
